@@ -2543,9 +2543,16 @@ input, select, textarea {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	.hero {
 		width: 1600px;
 		height: 900px;
-	
+	}
+
+	.ref {
+		width: 2200px;
+		height: auto;
 	}
 
 	canvas{
@@ -2595,7 +2602,7 @@ input, select, textarea {
 		border-bottom: solid 5px #ddabd9;
 		border-top-width: 0px;
 		border-bottom-width: 10px;
-		padding: 3em 0 3em 0;
+		padding: 0 0 3em 0;
 	}
 
 /* Sidebar + Content */
