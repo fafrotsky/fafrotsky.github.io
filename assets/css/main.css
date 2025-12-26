@@ -225,6 +225,14 @@ input, select, textarea {
 		width: 64em;
 	}
 
+	.notifier {
+		text-align: center;
+		font-size: .8em;
+		margin: auto;
+		max-width: 100%;
+		width: 64em;
+	}
+
 		@media screen and (max-width: 1680px) {
 
 			.container {
@@ -2277,11 +2285,11 @@ input, select, textarea {
 
 	#header {
 		text-align: center;
-		font-size: 2em;
+		font-size: 1em;
 		font-family: 'Open Sans Condensed', sans-serif;
 		font-weight: 700;
 		text-transform: uppercase;
-		padding: .75em 0;
+		padding: 1em 0 .5em 0;
 		background: #fff;
 		margin: 0 auto;
 	}
@@ -2289,7 +2297,7 @@ input, select, textarea {
 		#header .logo {
 			position: relative;
 			text-align: center;
-			border-top: solid 5px #eae7ea;
+			border-top: solid 2px #eae7ea;
 			top: 0.65em;
 		}
 
@@ -2298,7 +2306,7 @@ input, select, textarea {
 				position: relative;
 				display: inline-block;
 				padding: 0 1.5em 0 1.5em;
-				top: -0.65em;
+				top: -1em;
 				right: .5em;
 
 			}
@@ -2539,12 +2547,21 @@ input, select, textarea {
 
 	.rivecanvas {
 		padding: 0;
-		margin: -1em 0 0 0;
+		margin: 0 0 0 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		width: 1600px;
 		height: 800px;
+	
+	}
+
+		.rivecanvasref {
+		padding: 0;
+		margin: 0 2em 0 2em;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	
 	}
 
@@ -2595,7 +2612,7 @@ input, select, textarea {
 		border-bottom: solid 5px #ddabd9;
 		border-top-width: 0px;
 		border-bottom-width: 10px;
-		padding: 3em 0 3em 0;
+		padding: 1em 0 3em 0;
 	}
 
 /* Sidebar + Content */
@@ -2702,7 +2719,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				font-size: 1.5em;
+				font-size: 1em;
 			}
 
 		/* Banner */
